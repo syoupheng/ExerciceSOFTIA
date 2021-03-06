@@ -2,7 +2,7 @@
 return array(
     "servername" => "localhost",
     "username" => "root",
-    "password" => "@Spd75013",
+    "password" => "password",
     "dbname" => "FormationPlus_db"
 );
 ?>
