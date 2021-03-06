@@ -1,6 +1,6 @@
 # ExerciceSOFTIA
 
-##I) My setup
+## I) My setup
 
 I am working on ***macOS BigSur***.
 
@@ -8,7 +8,7 @@ Requirements : ***Apache Server, PHP, MySQL***
 
 I used PHPmyadmin to create my database but you can use any other application compatible with MySQL.
 
-##II) How to configure Apache
+## II) How to configure Apache
 
 To check if Apache is working open your web browser and type http://localhost
 
@@ -20,7 +20,7 @@ To start/stop Apache you can run the commands :
 sudo apachectl stop 
 sudo apachectl restart`
 
-##III) How to configure PHP
+## III) How to configure PHP
 
 To enable PHP in Apache you need to open httpd.conf and uncomment the following line:
 
@@ -28,7 +28,7 @@ To enable PHP in Apache you need to open httpd.conf and uncomment the following 
 
 **Don't forget to restart Apache after the modification.**
 
-##IV) How to configure MySQL
+## IV) How to configure MySQL
 
 In order to use MySQL in the terminal (on Mac) type the following command :
 
@@ -38,7 +38,7 @@ Then type `. ./bash_profile` to reload.
 
 To connect to MySQL in the terminal type : `mysql -u root -p`
 
-##V) How to use PHP whith MySQL
+## V) How to use PHP whith MySQL
 
 I used ***MySQLi*** in order to use PHP with MySQL. On Mac, MySQLi is already included with PHP, you just have to create a copy of **/etc/php.ini.default** with the following command:
 
@@ -48,7 +48,7 @@ Then you have to uncomment the line about mySQLi in php.ini:
 
 `extension=mysqli`
 
-##VI) How to use my application
+## VI) How to use my application
 
 To use my application you need to modify the **config.php** file with your servername, username and password for MySQL and the name of the database.
 
