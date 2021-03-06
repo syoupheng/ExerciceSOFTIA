@@ -1,0 +1,60 @@
+h1 {
+    color: black;
+    font-size: 170%;
+    font-family:sans-serif;
+    text-align: center;
+}
+
+label {
+    font-family: sans-serif;
+}
+
+#list_etudiant {
+    height:30px;
+    width:100%;
+    border:solid;
+    border-color: rgba(0, 0, 0, 0.486);
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    height:30px;
+    width:100%;
+    border:solid;
+    border-color: rgba(0, 0, 0, 0.486);
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+#message {
+    height:100px;
+    width:100%;
+    border:solid;
+    border-color: rgba(0, 0, 0, 0.486);
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+#send {
+    background-color: skyblue;
+    color:white;
+    height:40px;
+    width:40%;
+    font-size:140%;
+    border:none;
+    margin:20px;
+    border-radius: 5px;
+}
+
+#send:hover {
+    background-color:rgb(10, 143, 196);
+    cursor:pointer;
+}
+
+.flexdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
