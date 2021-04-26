@@ -1,5 +1,9 @@
 # ExerciceSOFTIA
 
+## Introduction
+
+see SOFTIA-EXEC-CANDIDAT.pdf.
+
 ## I) My setup
 
 I am working on ***macOS BigSur***.
@@ -50,7 +54,7 @@ Then you have to uncomment the line about mySQLi in php.ini:
 
 ## VI) How to use my application
 
-To use my application you need to modify the **config.php** file with your servername, username and password for MySQL and the name of the database.
+First of all, you will need to create the database using the FormationPlus_db.sql file. Then you will have to modify the **config.php** file with your servername, username and password for MySQL and the name of the database.
 
 To launch this project you have to place the directory ExerciceSOFTIA/ in the document root of Apache which is by default **/Library/WebServer/Documents/** on Mac but you can change it in httpd.conf. Then type **http://localhost:80/ExerciceSOFTIA/Form_p1.php** in your browser if your port number for apache is 80. This should open the first page of the form. Then choose a student and press Confirm to go to the second page. You should see the convention of the student and the message in the text area. Click on Envoyer to add the data in the attestation table in your database.
 
